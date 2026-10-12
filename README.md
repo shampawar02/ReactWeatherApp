@@ -30,6 +30,8 @@ A simple weather application built using React that allows users to search for a
 
 Weather data is provided by the [OpenWeatherMap API](https://openweathermap.org/api).
 
+![Weather App Screenshot](./image.png)
+
 ## Author
 
 **Sham Pawar**
