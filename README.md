@@ -1,16 +1,37 @@
-# React + Vite
+# React Weather App 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built using React that allows users to search for a city and view its current weather information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search weather by city name
+- Display current temperature in Celsius
+- Show minimum and maximum temperatures
+- Display humidity and feels-like temperature
+- Show weather descriptions
+- Fetch weather data using the OpenWeatherMap API
+- Responsive and simple user interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Material UI
+- OpenWeatherMap API
+- Vite
 
-## Expanding the ESLint configuration
+## How to Use
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Start the application.
+2. Enter a city name in the search field.
+3. Click the Search button.
+4. View the weather information for that city.
+
+## API
+
+Weather data is provided by the [OpenWeatherMap API](https://openweathermap.org/api).
+
+## Author
+
+**Sham Pawar**
+
+GitHub: https://github.com/shampawar02/ReactWeatherApp.git
